@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .homepage-image {
+            width: 1512px;
+            height: 700px;
+        }
+        p {
+            text-align: justify;
+        }
+        .section {
+            display: flex;
+            margin: 2rem;
+            align-items: center;
+        }
+        .section-image {
+             width: 600px;
+             height: 300px;
+         }
+        .section-1 .section-image-1 {
+            padding-right: 3rem;
+        }
+        .section-2 .section-image-2 {
+            padding-left: 3rem;
+        }
+        .section-3 {
+            justify-content: space-between;
+        }
+        .section-3 img {
+            height: 225px;
+        }
+        footer {
+            margin: 2rem;
+        }
+        .footer-1 {
+            display: flex;
+            align-content: space-between;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-1 .subscript {
+            display: flex;
+            height: 35px;
+        }
+        .footer-1 .subscript input {
+            width: 500px;
+            margin-right: 1.5rem;
+        }
+        .footer-1 .subscript button {
+            background-color: #425E25;
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            width: 150px;
+            border-radius: 25px;
+        }
+        .footer-1 .subscript button:hover {
+            background-color: #587935FF;
+        }
+        .footer-1 .subscript button:active {
+            background-color: #587935FF;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="homepage">
+            <img src="sources/homepage-image.png" alt="homepage image" class="homepage-image">
+        </div>
+        <div class="section section-1">
+            <img src="sources/img1.png" alt="image-1" class="section-image section-image-1">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="section section-2">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <br><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <img src="sources/img2.png" alt="image-2" class="section-image section-image-2">
+        </div>
+        <div class="section section-3">
+            <img src="sources/img3.png" alt="image-3" class="image-3">
+            <img src="sources/img4.png" alt="image-4" class="image-4">
+            <img src="sources/img5.png" alt="image-5" class="image-5">
+            <img src="sources/img6.png" alt="image-6" class="image-6">
+            <img src="sources/img7.png" alt="image-7" class="image-7">
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footer-1">
+        <h1>NEWSLETTER</h1>
+        <div class="subscript">
+            <input type="email" placeholder="Email">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+    <div class="footer-2">
+        <p>All right reserved</p>
+    </div>
+</footer>
+</html>
